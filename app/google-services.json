@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "265640201550",
+    "firebase_url": "https://quero-doar-854b8.firebaseio.com",
+    "project_id": "quero-doar-854b8",
+    "storage_bucket": "quero-doar-854b8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:265640201550:android:2013daa3adda7fe51fe21f",
+        "android_client_info": {
+          "package_name": "com.gentalhacode.querodoar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "265640201550-igf2ahu3bccd62tv5nif6on36259jke9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gentalhacode.querodoar",
+            "certificate_hash": "928da044b51e17ffd6d12bf6610dd10608cda32f"
+          }
+        },
+        {
+          "client_id": "265640201550-qmf63ubf9f7drcgg5r3r0kneo5mffe40.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3BsmZcxN_2tscM98zY2aX42pqSxjIK7w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "265640201550-qmf63ubf9f7drcgg5r3r0kneo5mffe40.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
