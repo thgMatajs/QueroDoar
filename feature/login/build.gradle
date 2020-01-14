@@ -1,12 +1,12 @@
-apply plugin: 'com.android.application'
-apply plugin: 'io.fabric'
-apply plugin: 'com.google.firebase.firebase-perf'
-apply from:"../build-system/android-module.gradle"
-
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply from:"../../build-system/android-module.gradle"
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
+    implementation project(":model")
 
     implementation Dependencies.kotlinStdLib
     implementation Dependencies.appCompat
@@ -14,18 +14,23 @@ dependencies {
     implementation Dependencies.cardView
     implementation Dependencies.constraintLayout
 
+    implementation Dependencies.koin
+    implementation Dependencies.koinAndorid
+    implementation Dependencies.koinViewModel
+    implementation Dependencies.firebaseCrashlytics
+    implementation Dependencies.lottie
+
+    implementation Dependencies.rxAndroid
+    implementation Dependencies.rxJava
+    implementation Dependencies.rxKotlin
+
     implementation Dependencies.firebaseAnalytics
     implementation Dependencies.firebaseCore
     implementation Dependencies.firebaseAuth
     implementation Dependencies.firebaseFireStore
-    implementation Dependencies.firebaseStorage
-    implementation Dependencies.firebasePerformance
     implementation Dependencies.servicesAuth
 
-    implementation Dependencies.coil
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 }
-
-apply plugin: 'com.google.gms.google-services'
