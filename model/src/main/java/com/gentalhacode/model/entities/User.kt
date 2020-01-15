@@ -1,7 +1,5 @@
 package com.gentalhacode.model.entities
 
-import com.gentalhacode.model.entities.Place
-
 /**
  * .:.:.:. Created by @thgMatajs on 13/01/20 .:.:.:.
  */

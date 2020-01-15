@@ -14,6 +14,11 @@ dependencies {
     implementation Dependencies.cardView
     implementation Dependencies.constraintLayout
 
+    implementation Dependencies.koin
+    implementation Dependencies.koinAndorid
+    implementation Dependencies.koinViewModel
+    implementation Dependencies.firebaseCrashlytics
+
     implementation Dependencies.firebaseAnalytics
     implementation Dependencies.firebaseCore
     implementation Dependencies.firebaseAuth

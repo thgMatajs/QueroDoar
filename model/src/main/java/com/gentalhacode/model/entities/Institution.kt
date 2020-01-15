@@ -11,4 +11,5 @@ interface Institution {
     val photoUrls: List<String>
     val phoneNumbers: List<Int>
     val contactsName: List<String>
+    val favorit: Boolean
 }
