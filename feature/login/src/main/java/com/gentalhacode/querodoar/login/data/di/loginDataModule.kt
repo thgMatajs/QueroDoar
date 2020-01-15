@@ -9,7 +9,7 @@ import org.koin.dsl.module
 /**
  * .:.:.:. Created by @thgMatajs on 15/01/20 .:.:.:.
  */
-val loginDatamodule = module {
+val loginDataModule = module {
     factory<LoginRepository> { LoginRepositoryImplementation(get()) }
     factory { LoginDataFactory(get()) }
     factory { LoginFireBaseDataSource(get()) }
